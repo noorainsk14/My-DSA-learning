@@ -1,5 +1,3 @@
-
-
 public class SearchInRange {
 
     public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class SearchInRange {
         int end = 6;
         System.out.println(linearSearch(arr,target,start,end));
     }
-
+     // return the index of the largest number between the range
     static int linearSearch(int[] arr, int target, int start, int end){
         for (int i = start; i <= end; i++) {
             int element = arr[i];
@@ -22,3 +20,4 @@ public class SearchInRange {
         return  -1;
     }
 }
+

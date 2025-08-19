@@ -42,14 +42,12 @@ public class LinearSearch {
         return Integer.MAX_VALUE;
     }
 
-
     //search in the array return the index of the element found
     //otherwise item not found return -1
     static int linearSearch(int[] arr, int target){
         if(arr.length == 0){
             return -1;
         }
-
         //for loop for search
         for (int index=0; index<arr.length; index++){
             int element = arr[index];
@@ -57,7 +55,6 @@ public class LinearSearch {
                 return index;
             }
         }
-
         //this statement will execute if the none of the above return statement is execute
         //hence the target not found
         return -1;
